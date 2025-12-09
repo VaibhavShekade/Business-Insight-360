@@ -1,6 +1,5 @@
 # Business Insights 360 — Power BI Report
 
-A clean, professional README template for the **Business Insights 360** Power BI report. Use this file as the main README in your GitHub repository; it explains each report page, the interactions, data model notes, deployment steps, and how to add the screenshots that accompany the report.
 
 ---
 
