@@ -39,7 +39,8 @@ A clean, professional README template for the **Business Insights 360** Power BI
 
 * Title and branding (report name / presenter).
 * Large navigation icons (clickable bookmarks or page navigation buttons) to quickly jump to Finance, Sales, Marketing, Supply Chain, and Support pages.
-  **Use cases:** Executive or new users who want an overview and quick access.
+  
+**Use cases:** Executive or new users who want an overview and quick access.
 
 ![Home Page](images/home.png)
 
@@ -57,7 +58,8 @@ A clean, professional README template for the **Business Insights 360** Power BI
 * Time-series line chart for Net Sales Performance, with ability to show selected year vs prior year.
 * Top / Bottom product and customer tables (by Net Sales).
 * Left-side icon navigation for switching pages.
-  **Use cases:** Financial analysts reviewing monthly/quarterly P&L, presenting variance to prior year, investigating cost drivers.
+  
+**Use cases:** Financial analysts reviewing monthly/quarterly P&L, presenting variance to prior year, investigating cost drivers.
 
 ![Finance View](images/finance-view.png)
 
@@ -73,7 +75,8 @@ A clean, professional README template for the **Business Insights 360** Power BI
 * Bubble chart (Net Sales on X, GM % on Y) for customer/product clustering and segmentation.
 * Segment breakdown table and donut charts showing contribution by category.
 * Year and filter selectors are consistent with other pages.
-  **Use cases:** Sales managers identifying high-value customers, analyzing margin vs volume trade-offs, spotting growth opportunities or risk.
+  
+**Use cases:** Sales managers identifying high-value customers, analyzing margin vs volume trade-offs, spotting growth opportunities or risk.
 
 ![Sales View](images/sales-view.png)
 
@@ -89,7 +92,8 @@ A clean, professional README template for the **Business Insights 360** Power BI
 * P&L waterfall (or change chart) to show movement between Gross Margin → Net Profit → Operational Expense.
 * Donut charts summarizing COGS vs Gross Margin.
 * Region or campaign level tables for deeper inspection.
-  **Use cases:** Marketing leads wanting to justify spend vs financial outcomes and evaluate campaign impact on margins.
+  
+**Use cases:** Marketing leads wanting to justify spend vs financial outcomes and evaluate campaign impact on margins.
 
 ![Marketing View](images/marketing-view.png)
 
@@ -105,7 +109,8 @@ A clean, professional README template for the **Business Insights 360** Power BI
 * Net Error / Forecast Accuracy trend line & bar visual to monitor monthly performance.
 * Customer and product level tables with Forecast Accuracy, Net Error, and Risk classifications (e.g., Excess Inventory, Out of Stock).
 * Target gap tolerance control and toggle (vs LY / vs target), to quickly evaluate performance vs goals.
-  **Use cases:** Supply chain managers tracking forecast performance, prioritizing inventory actions, and identifying high-risk products or customers.
+  
+**Use cases:** Supply chain managers tracking forecast performance, prioritizing inventory actions, and identifying high-risk products or customers.
 
 ![Supply Chain View](images/supply-chain-view.png)
 
@@ -119,7 +124,8 @@ A clean, professional README template for the **Business Insights 360** Power BI
 
 * Detailed P&L with breakdowns and yearly comparisons.
 * Tools or visuals to check data integrity (e.g., variance checks, reason codes).
-  **Use cases:** Finance team reconciliation before management reporting.
+  
+**Use cases:** Finance team reconciliation before management reporting.
 
 
 ---
