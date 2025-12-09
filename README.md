@@ -79,7 +79,7 @@ Notes:
 ---
 
 ## Finance View
-
+![Finance View](images/finance-view.png)
 **Purpose:** Deep-dive into company financials — Net Sales, Gross Margin, Net Profit, and a full Profit & Loss breakdown.
 **Key features:**
 
