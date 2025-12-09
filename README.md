@@ -48,11 +48,11 @@ To make the README visually informative, include screenshots of each page. Recom
    * `images/page2.png`
 3. Insert an image in Markdown using the snippet below where relevant:
 
-```markdown
+
 ### Finance View
 ![Finance View](images/finance-view.png)
 *Caption: Finance page showing KPIs, P&L table, and Net Sales performance over time.*
-```
+
 
 Notes:
 
