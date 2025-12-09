@@ -74,7 +74,7 @@ Notes:
 * Large navigation icons (clickable bookmarks or page navigation buttons) to quickly jump to Finance, Sales, Marketing, Supply Chain, and Support pages.
   **Use cases:** Executive or new users who want an overview and quick access.
 
-*Suggested screenshot:* `images/home.png`
+![Home Page](images/home.png)
 
 ---
 
@@ -91,7 +91,7 @@ Notes:
 * Left-side icon navigation for switching pages.
   **Use cases:** Financial analysts reviewing monthly/quarterly P&L, presenting variance to prior year, investigating cost drivers.
 
-images/finance-view.png
+![Finance View](images/finance-view.png)
 
 ---
 
@@ -106,7 +106,7 @@ images/finance-view.png
 * Year and filter selectors are consistent with other pages.
   **Use cases:** Sales managers identifying high-value customers, analyzing margin vs volume trade-offs, spotting growth opportunities or risk.
 
-*Suggested screenshot:* `images/sales-view.png`
+![Sales View](images/sales-view.png)
 
 ---
 
@@ -121,7 +121,7 @@ images/finance-view.png
 * Region or campaign level tables for deeper inspection.
   **Use cases:** Marketing leads wanting to justify spend vs financial outcomes and evaluate campaign impact on margins.
 
-*Suggested screenshot:* `images/marketing-view.png`
+![Marketing View](images/marketing-view.png)
 
 ---
 
@@ -136,7 +136,7 @@ images/finance-view.png
 * Target gap tolerance control and toggle (vs LY / vs target), to quickly evaluate performance vs goals.
   **Use cases:** Supply chain managers tracking forecast performance, prioritizing inventory actions, and identifying high-risk products or customers.
 
-*Suggested screenshot:* `images/supply-chain-view.png`
+![Supply Chain View](images/supply-chain-view.png)
 
 ---
 
@@ -149,17 +149,6 @@ images/finance-view.png
 * Tools or visuals to check data integrity (e.g., variance checks, reason codes).
   **Use cases:** Finance team reconciliation before management reporting.
 
-*Suggested screenshot:* `images/p_and_l-check.png`
-
----
-
-## Additional pages (Page 1 / Page 2)
-
-**Purpose:** Supplemental analyses (could be export pages, supporting visuals, or test pages).
-**Key features:** Varies — maintain consistent filters and selectors for cross-page comparisons.
-**Use cases:** Extra drill-downs, stakeholder-specific insights, or future expansion.
-
-*Suggested screenshots:* `images/page1.png`, `images/page2.png`
 
 ---
 
