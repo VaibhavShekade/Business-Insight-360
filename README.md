@@ -31,36 +31,6 @@ A clean, professional README template for the **Business Insights 360** Power BI
 
 ---
 
-# How to add screenshots
-
-To make the README visually informative, include screenshots of each page. Recommended workflow:
-
-1. Create an `images/` folder at the repository root.
-2. Export page screenshots from Power BI Desktop (or from the published report) and save them with the following suggested names:
-
-   * `images/home.png`
-   * `images/finance-view.png`
-   * `images/sales-view.png`
-   * `images/marketing-view.png`
-   * `images/supply-chain-view.png`
-   * `images/p_and_l-check.png`
-   * `images/page1.png`
-   * `images/page2.png`
-3. Insert an image in Markdown using the snippet below where relevant:
-
-
-### Finance View
-![Finance View](images/finance-view.png)
-*Caption: Finance page showing KPIs, P&L table, and Net Sales performance over time.*
-
-
-Notes:
-
-* Use high-resolution screenshots (minimum 1280 × 720 recommended) so details remain legible on GitHub.
-* Optionally crop or annotate screenshots to draw attention to important controls or visuals.
-
----
-
 # Pages & Purpose (page-by-page guide)
 
 > Each page description below includes: purpose, key visuals, and suggested use-cases for business users.
@@ -68,6 +38,7 @@ Notes:
 ## Home
 
 **Purpose:** Landing / navigation page. Provides a high-level entry point into the report and links to other pages.
+
 **Key features:**
 
 * Title and branding (report name / presenter).
@@ -188,72 +159,3 @@ Net Profit % = DIVIDE([Net Profit], [Net Sales], 0)
 YoY Net Sales = 
 VAR Prev = CALCULATE([Net Sales], PREVIOUSYEAR(Date[Date]))
 RETURN DIVIDE([Net Sales] - Prev, Prev, 0)
-```
-
-**Model notes**
-
-* Keep a single Date table and use it for time intelligence functions. Mark it as a Date table in Power BI.
-* Use star schema: FactSales, FactFinance, DimCustomer, DimProduct, DimRegion, DimDate.
-* Pre-aggregate where possible for large datasets, or implement incremental refresh in Power BI service.
-
----
-
-# Publish & refresh notes
-
-* Save the report as `Business_Insights_360.pbix` and add it to this repo (or keep a release with the PBIX if file size policy allows).
-* To publish to Power BI Service:
-
-  1. In Power BI Desktop: **Home → Publish → select workspace**.
-  2. Configure dataset credentials & schedule refresh in the workspace dataset settings.
-* For scheduled refresh: ensure gateway connectivity is set up if sources are on-premises.
-* Recommended Power BI Desktop version: use latest stable release (note which version you built with in the repo `RELEASE_NOTES.md`).
-
----
-
-# Known limitations & recommendations
-
-* Visual interactions rely on consistent column naming between fact and dimension tables. If fields change in source, update relationships and DAX accordingly.
-* Large data volumes: use aggregation tables or enable incremental refresh.
-* Sensitive data: do not commit raw data with PII to public GitHub repositories.
-
----
-
-# How to contribute / Contact
-
-Contributions and feedback are welcome. Suggested steps:
-
-1. Fork the repository.
-2. Add or update screenshots inside the `images/` folder (use the naming convention above).
-3. Update this README or add an explanation in `docs/` if you add new pages or visuals.
-4. Submit a pull request describing changes.
-
-For questions or to request consultation:
-
-* Presenter / Author: **Vaibhav Shekade**
-* Email: (add your preferred contact)
-* Link to published report (if available): *(add URL)*
-
----
-
-# License
-
-This repository is provided under the [MIT License](LICENSE) — update as appropriate for your organization.
-
----
-
-## Quick README checklist (before committing)
-
-* [ ] `images/` folder added with screenshots for all pages.
-* [ ] `Business_Insights_360.pbix` included (or a link to the published report).
-* [ ] Dataset / data model documentation added (optional `DATA_MODEL.md`).
-* [ ] Version of Power BI Desktop listed (`RELEASE_NOTES.md`).
-* [ ] Contact details added or redacted per privacy policy.
-
----
-
-If you’d like, I can:
-
-* generate the actual README file content in markdown ready to paste into your repo, using the exact screenshot filenames you already have; or
-* produce a short `DATA_MODEL.md` describing the star schema and relationships based on the tables & fields you confirm.
-
-Tell me which option you prefer and I’ll output the ready-to-save Markdown (no further edits required).
