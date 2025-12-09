@@ -15,7 +15,7 @@
   * [Supply Chain View](#supply-chain-view)
   * [P&L Check](#pl-check)
 * [Common interactions & controls](#common-interactions--controls)
-* [Key DAX measures & modeling notes (recommended)](#key-dax-measures--modeling-notes-recommended)
+* [Key DAX measures & modeling notes](#key-dax-measures--modeling-notes-recommended)
 
 
 ---
