@@ -141,9 +141,8 @@
 
 ---
 
-# Key DAX measures & modeling notes (recommended)
+# Key DAX measures & modeling notes 
 
-Below are suggested measures you might already have or should add. Replace fields with your actual column names.
 
 ```dax
 -- Net Sales
