@@ -7,7 +7,6 @@ A clean, professional README template for the **Business Insights 360** Power BI
 ## Table of contents
 
 * [Overview](#overview)
-* [How to add screenshots](#how-to-add-screenshots)
 * [Pages & Purpose (page-by-page guide)](#pages--purpose-page-by-page-guide)
 
   * [Home](#home)
@@ -16,12 +15,9 @@ A clean, professional README template for the **Business Insights 360** Power BI
   * [Marketing View](#marketing-view)
   * [Supply Chain View](#supply-chain-view)
   * [P&L Check](#pl-check)
-  * [Additional pages (Page 1 / Page 2)](#additional-pages-page-1--page-2)
 * [Common interactions & controls](#common-interactions--controls)
 * [Key DAX measures & modeling notes (recommended)](#key-dax-measures--modeling-notes-recommended)
-* [Publish & refresh notes](#publish--refresh-notes)
-* [How to contribute / Contact](#how-to-contribute--contact)
-* [License](#license)
+
 
 ---
 
@@ -52,6 +48,7 @@ A clean, professional README template for the **Business Insights 360** Power BI
 ## Finance View
 
 **Purpose:** Deep-dive into company financials — Net Sales, Gross Margin, Net Profit, and a full Profit & Loss breakdown.
+
 **Key features:**
 
 * KPI cards for Net Sales, GM % and Net Profit % (with comparisons to benchmark or last year).
@@ -69,6 +66,7 @@ A clean, professional README template for the **Business Insights 360** Power BI
 ## Sales View
 
 **Purpose:** Sales performance analysis by customer, market, or product segment.
+
 **Key features:**
 
 * Customer table with Net Sales, GM $ and GM %.
@@ -84,6 +82,7 @@ A clean, professional README template for the **Business Insights 360** Power BI
 ## Marketing View
 
 **Purpose:** Link marketing activities to profitability and P&L impact — visibility into product/segment profitability and marketing-driven KPIs.
+
 **Key features:**
 
 * Scatter/bubble visualization of Net Profit % vs NS $ (product or segment level).
@@ -99,6 +98,7 @@ A clean, professional README template for the **Business Insights 360** Power BI
 ## Supply Chain View
 
 **Purpose:** Inventory, forecast accuracy, and supply chain KPIs (forecast error, ABS error, stock risks).
+
 **Key features:**
 
 * KPI cards: Forecast Accuracy %, Net Error, ABS Error.
@@ -114,6 +114,7 @@ A clean, professional README template for the **Business Insights 360** Power BI
 ## P&L Check
 
 **Purpose:** Focused diagnostics and validation for Profit & Loss figures — used as a reconciliation and audit page.
+
 **Key features:**
 
 * Detailed P&L with breakdowns and yearly comparisons.
